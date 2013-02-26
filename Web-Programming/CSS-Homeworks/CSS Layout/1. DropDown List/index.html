@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DropDownList</title>
+    <style>
+		.sub {
+		background-color: #f0f0f0;
+			-webkit-transition: height 500ms ease-out;
+               -moz-transition: height 500ms ease-out;
+                 -o-transition: height 500ms ease-out;
+                    transition: height 500ms ease-out;
+		}
+		#main a {
+		display:block;
+		width:150px;
+		color:black;
+		}
+
+		#main ul li a {
+		color:grey;
+		}
+
+		#main, #main ul {
+		padding:0;
+		margin:0;
+		}
+		#main li {
+		list-style:none;
+		}
+
+		.sub {
+		margin-left:5px;
+		}
+
+		#main li ul { 
+		display:none; 
+
+		}
+		#main li:hover ul { 
+		display:block; 
+		}
+
+		a:hover, a:active {
+		text-decoration:underline;
+		}
+
+		a, a:link, a:visited {
+		text-decoration:none;
+		}
+
+		#main li a:hover, #main li ul li:hover {
+		text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+    <ul id="main">
+        <li><a href="#">List Item</a>
+            <ul class="sub">
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+            </ul>
+
+        </li>
+        <li><a href="#">List Item</a>
+			<ul class="sub">
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+            </ul>
+		</li>
+        <li><a href="#">List Item</a>
+		    <ul class="sub">
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+            </ul>
+		</li>	
+        <li><a href="#">List Item</a>
+             <ul class="sub">
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+                <li class="sub"><a href="#">Sublist Item</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
