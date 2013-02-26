@@ -1,4 +1,4 @@
-Telerik-Academy-Projects-fail
+Telerik-Academy-Projects
 =============================
 
 Telerik Academy Projects
